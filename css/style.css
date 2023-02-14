@@ -1,0 +1,66 @@
+/*{
+    margin: 0;
+    padding: 0;
+}*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/abstract-geometric-colorful-background-free-vector.jpg);
+    background-repeat: repeat-y;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border:2px solid black;
+}
+.logo{
+    width: 200px;
+    margin: 10px;
+}
+.navegador a{
+    border: 1px solid black;
+    padding: 3px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header{
+    background-color: #6be085;
+    display: flex;
+    display: row;   
+}
+.caja{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border:2px solid black;
+    
+}
+.mas{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+fieldset{
+    background-color: white;
+}
+.redes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
