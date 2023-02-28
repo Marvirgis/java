@@ -1,6 +1,5 @@
-let data= {
-  "currentDate": "2022-01-01",
-  "events": [
+//"currentDate": "2022-01-01"
+let data=[
     {
       _id: 1,
       "image":"https://amazingeventsapi.herokuapp.com/api/img/Feriadecomidas7.jpg",
@@ -170,7 +169,7 @@ let data= {
       "price":250
     }
   ]
-}
+
 /*for(let i=0;i<data.legth;i++){
     console.log(data[i])
   }
@@ -179,7 +178,37 @@ for(let i=0;i<arr.length;i++){
     console.log(arr[i])
 }*/
 
-console.log(data.events)
+console.log(data.events)//array de events
 
 console.log(Object.entries(data))
+
+
+/*for(let i=0; i<data.events.length; i++){
+  let array=data.events;
+  console.log(array[i]) /*me imprimio cada uno de los elementos*/
+//}
+let cards=document.getElementsByClassName("container")
+
+console.log(array)
+
+data.map((op)=>{
+cards.innerHTML +=` 
+  <div class="caja">
+    <img id="card-image" src= ${op.image} alt="">
+    <h2>${op.name}</h2>
+    <p>${op.description}</p>
+    <span>Precio:${op.price}</span>
+    <a class="mas" href="./details.html">ver más</a>
+  </div>
+    `;
+});
+
+for(let clave of data){
+  console.log(clave)
+}
+console.log(cajas)
+
+
+
+
 
