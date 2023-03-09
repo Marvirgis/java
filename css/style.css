@@ -10,8 +10,8 @@ body{
 }
 
 .container{
-    margin: 10px;
-    padding: 20px;
+    margin: 5px;
+    padding: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,7 +67,6 @@ h1,h2{
 .caja{
     background-color: white;
     display: flex;
-    align-content: ;
     padding: 5px;
     flex-direction: column;
     width: 400px;
@@ -75,6 +74,12 @@ h1,h2{
     border:2px solid black;
     margin: 2px;
     
+}
+.caja2{
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
 }
 #card-image{
     width: 100%;
