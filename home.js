@@ -10,7 +10,7 @@ for (const dato of array){
   <h2>${dato.name}</h2>
   <p>${dato.description}</p>
   <span>Precio:$ ${dato.price}</span>
-  <a class="mas" href="./details.html?id=${dato._id}">ver más</a>]
+  <a class="mas" href="./details.html?id=${dato._id}">ver más</a>
   </div>
   `}
  // contenedor.appendChild(fragment)
