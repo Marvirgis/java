@@ -30,6 +30,22 @@ let fragment=document.createDocumentFragment()
     </div>
     `}
    console.log([document])
-  
 
-  
+   categorias=[]
+
+   array.forEach( val=> {
+     if(!categorias.includes(val.category)){
+       categorias.push(val.category)
+     } 
+   });
+   console.log(categorias);
+   
+   let seleccionar=document.getElementById("seleccionar")
+   //console.log(seleccionar);
+   
+   for (category of categorias) {
+     seleccionar.innerHTML+=`
+    ${category}<input type="checkbox" name="${category}" id="1">
+    
+     `
+   }
